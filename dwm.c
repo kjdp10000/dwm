@@ -61,7 +61,7 @@
 
 #define STATUSLENGTH            256
 #define DWMBLOCKSLOCKFILE       "/var/local/dwmblocks/dwmblocks.pid"
-#define DELIMITERENDCHAR        10
+#define DELIMITERENDCHAR        11
 #define LSPAD                   (lrpad / 2) /* padding on left side of status text */
 #define RSPAD                   (lrpad / 2) /* padding on right side of status text */
 
