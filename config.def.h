@@ -55,6 +55,7 @@ static const Rule rules[] = {
 	{ "firefox",        NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Brave-browser",  NULL,       NULL,       1 << 7,       0,           -1 },
 	{ "Thunderbird",    NULL,       NULL,       1 << 6,  		  0,           -1 },
+	{ "Terminator",     NULL,       "calc",     0,  		      1,           -1 },
 };
 
 /* layout(s) */
