@@ -14,8 +14,8 @@ static const unsigned int tabCycleKey = 0x17;
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=12" ,"JoyPixels:size=10"};
-static const char dmenufont[]       = "monospace:size=12";
+static const char *fonts[]          = { "monospace:size=10" ,"JoyPixels:size=10"};
+static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -56,9 +56,9 @@ static const Rule rules[] = {
 	{ "Gimp",           NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",        NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "Brave-browser",  NULL,       NULL,       1 << 7,       0,           -1 },
-	{ "thunderbird",    NULL,       NULL,       1 << 6,  		  0,           -1 },
-	{ "Terminator",     NULL,       "calc",     0,  		      1,           -1 },
-	{ "Terminator",     NULL,       "note-maker",0,  		      1,           -1 },
+	{ "thunderbird",    NULL,       NULL,       1 << 6,  	  0,           -1 },
+	{ "st-256color",    NULL,       "calc",     0,  	      1,           -1 },
+	{ "Terminator",     NULL,       "note-maker",0,  	      1,           -1 },
 	{ "KeePassXC",      NULL,       NULL,       1 << 3,	      0,           -1 },
 };
 
