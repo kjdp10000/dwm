@@ -58,7 +58,7 @@ static const Rule rules[] = {
 	{ "Brave-browser",  NULL,       NULL,       1 << 7,       0,           -1 },
 	{ "thunderbird",    NULL,       NULL,       1 << 6,  	  0,           -1 },
 	{ "st-256color",    NULL,       "calc",     0,  	      1,           -1 },
-	{ "Terminator",     NULL,       "note-maker",0,  	      1,           -1 },
+	{ "st-256color",    NULL,       "note-maker",0,  	      1,           -1 },
 	{ "KeePassXC",      NULL,       NULL,       1 << 3,	      0,           -1 },
 };
 
